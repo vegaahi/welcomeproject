@@ -1,0 +1,97 @@
+<html>
+<head>
+	<style>
+	form{
+		margin-left:30%;
+		margin-right:30%;
+		background-color:yellow;
+		padding:20px;
+		border-radius:10px;
+	}
+	.abc{
+		
+		font-size:24px;
+		color:green;
+		font-family:cursive;
+		margin-left:10%;
+		
+	}
+	td{
+		width:250px;
+	}
+	.xyz{
+		height:50px;
+		width:300px;
+		border-radius:10px;
+		margin-top:10px;
+			}
+	.btn{
+		width:200px;
+		height:40px;
+		background-color:orange;
+		margin-left:40px;
+		border-radius:10px;
+	}
+	</style>
+</head>
+<body>
+	<aside align="center"><h1>Registration Form</h1></aside>
+	
+	<form action="" method="post" >
+
+		<table>
+			<tr>
+				<td><label class="abc">UserName:*</label></td>
+				<td><input class="xyz" type="text" placeholder="enter your name" required="required"></td>
+			</tr>
+
+			<tr>
+				<td><label class="abc">password:*</label></td>
+				<td><input class="xyz" type="password" placeholder="enter your password" required="required"></td>
+			</tr>
+
+			<tr>
+				<td><label class="abc">Mobile:*</label></td>
+				<td><input class="xyz" type="number" placeholder="enter your mobile no" required></td>
+			</tr>
+
+			<tr>
+				<td><label class="abc">Email:*</label></td>
+				<td><input class="xyz" type="email" placeholder="enter your email" required></td>
+			</tr>
+
+			<tr>
+				<td><label class="abc">DOB:*</label></td>
+				<td><input class="xyz" type="date" required></td>
+			</tr>
+
+			<tr>
+				<td><label class="abc">Gender:*</label></td>
+				<td><input type="radio" name="xyz" value="male" required>Male
+		<input type="radio" name="xyz" value="female" required>Female
+		<input type="radio" name="xyz" value="others" required>Other </td>
+			</tr>
+
+			<tr>
+				<td><label class="abc">section:*</label></td>
+				<td><select class="xyz">
+			<option value="csm">CSM</option>
+			<option value="CSD">CSD</option>
+			<option value="CSE">CSE</option>
+		</select></td>
+			</tr>
+
+			<tr>
+				<td><label class="abc">Profile pic:*</label></td>
+				<td><input class="xyz" type="file"></td>
+			</tr>
+
+			<tr>
+				<td><input class="btn" type="submit" value="Register"></td>
+				
+			</tr>
+		
+		</table>
+	</form>
+</body>
+</html>
